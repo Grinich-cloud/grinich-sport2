@@ -1,0 +1,15 @@
+{
+  "name": "Activ Grip | Grinich Sport",
+  "short_name": "Activ Grip",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07090c",
+  "theme_color": "#07090c",
+  "icons": [
+    {
+      "src": "assets/image1.png",
+      "sizes": "any",
+      "type": "image/png"
+    }
+  ]
+}

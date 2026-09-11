@@ -1,0 +1,53 @@
+ACTIV GRIP / GRINICH SPORT — CLOUDFLARE DEPLOYMENT
+===================================================
+
+DOMAIN
+https://www.grinich-sport.com/
+
+OPTION A — SIMPLEST: CLOUDFLARE PAGES DIRECT UPLOAD
+
+1. Log in to Cloudflare.
+2. Go to Workers & Pages.
+3. Click Create application.
+4. Choose Pages / Drag and drop files.
+5. Name the project: activ-grip
+6. Upload THIS ZIP FILE or this website folder.
+7. Click Deploy site.
+8. Cloudflare gives you a temporary address such as:
+   activ-grip.pages.dev
+9. Open the temporary address and verify the website.
+
+CONNECT YOUR DOMAIN
+10. Open the new Pages project.
+11. Go to Custom domains.
+12. Click Set up a domain.
+13. Add:
+    grinich-sport.com
+14. Then also add:
+    www.grinich-sport.com
+15. If the domain is already managed by Cloudflare, Cloudflare normally
+    creates/updates the required DNS records for the Pages project.
+
+IMPORTANT
+- If your existing grinich-sport.com site is currently hosted somewhere else,
+  connecting the root domain to this project will REPLACE what visitors see there.
+- If you want to preserve your current Grinich Sport website, publish Activ Grip
+  instead at a subdomain such as:
+    activgrip.grinich-sport.com
+
+GOOGLE INDEXING AFTER PUBLISHING
+16. Open Google Search Console.
+17. Add the domain property:
+    grinich-sport.com
+18. Verify ownership through Cloudflare DNS.
+19. Submit:
+    https://www.grinich-sport.com/sitemap.xml
+20. Use URL Inspection for:
+    https://www.grinich-sport.com/
+21. Click Request indexing.
+
+BEFORE PUBLIC LAUNCH
+- Replace the current sample/request CTA with your real email or form.
+- Verify all product claims and competition-rule claims.
+- Test the page on mobile.
+- Compress/replace large video files if loading is slow.
